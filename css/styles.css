@@ -36,10 +36,10 @@ button {
 /* ============== /COMMON STYLES ============== */
 
 .body-skin {
- background: #FFF;
- font-family: Roboto, sans-serif;
- color: #434455;
- background-color: #ffffff;
+background: #FFF;
+font-family: Roboto, sans-serif;
+color: #434455;
+background-color: #ffffff;
 }
 
 /* Header */
@@ -55,7 +55,7 @@ ul, ol {
 
 a {
     text-decoration: none;
-    color: color: var(--SLATE, #434455);
+    color: #434455;
 }
 
 .header .container {
@@ -377,19 +377,19 @@ padding-left: 156px;
   padding-bottom: 189.5px;
   padding-left: 156px; */
 display: inline-block;
-color: var(--IRIS, #4D5AE5);
+color: #4D5AE5;
 font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-/* padding-bottom: 17.5px; */
+margin-bottom: 16px;
 }
 
 .studio-footer {
 display: inline-block;
-color: var(--CLOUD, #F4F4FD);
+color: #F4F4FD;
 font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
@@ -401,8 +401,7 @@ margin-bottom: 16px;
 
 .footer-paragraph {
 width: 264px;
-padding-top: 17.5px;
-color: var(--CLOUD, #F4F4FD);
+color: #F4F4FD;
 font-family: Roboto, sans-serif;
 font-size: 16px;
 font-weight: 400;
