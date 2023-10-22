@@ -366,7 +366,7 @@ width: 1440px;
 height: 312px;
 background: var(--NAVY-BLUE, #2E2F42);
 display: flex;
-padding: 101.5px;
+padding: 100px 0 100px;
 padding-left: 156px;
 }
 
@@ -376,6 +376,7 @@ padding-left: 156px;
   padding-right: 1240px;
   padding-bottom: 189.5px;
   padding-left: 156px; */
+display: inline-block;
 color: var(--IRIS, #4D5AE5);
 font-family: Raleway, sans-serif;
 font-size: 18px;
@@ -383,10 +384,11 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding-bottom: 17.5px;
+/* padding-bottom: 17.5px; */
 }
 
 .studio-footer {
+display: inline-block;
 color: var(--CLOUD, #F4F4FD);
 font-family: Raleway, sans-serif;
 font-size: 18px;
@@ -394,6 +396,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 16px;
 }
 
 .footer-paragraph {
