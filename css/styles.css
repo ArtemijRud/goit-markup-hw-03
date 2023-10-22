@@ -163,6 +163,10 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.button{
+  display: block;
+}
+
 .button {
 display: block;
 min-width: 169px;
@@ -198,6 +202,10 @@ font-size: 16px;
 
 /* Section 2 */
 
+.paddi-sect {
+  padding: 120px 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -212,12 +220,16 @@ font-size: 16px;
     overflow: hidden;
   }
 
-.display {
+.display-section {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   margin-left: 156px;
   margin-top: 156px;
   margin-bottom: 120px;
+  }
+
+  .calcul {
+    width: calc((100% - 72px) / 4)
   }
 
 .section-two-item-header {
