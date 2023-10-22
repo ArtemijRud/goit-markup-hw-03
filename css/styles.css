@@ -271,7 +271,6 @@ background:  #F4F4FD;
   display: flex;
   gap: 24px;
   padding-left: 156px;
-  width: calc((100% - 72px) / 4);
   }
 
 .our-section-item {
@@ -293,6 +292,7 @@ margin-left: 639px;
 
 
 .section-three-list {
+width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 width: 264px;
 height: 380px;
