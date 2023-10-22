@@ -45,8 +45,10 @@ background-color: #ffffff;
 /* Header */
 
 .header {
-background: var(--WHITE, #FFF);
+background: #FFF;
 border-bottom: 1px solid #e7e9fc;
+margin: 0 auto;
+padding: 0 15px;
 
 }
 
@@ -68,10 +70,11 @@ justify-content: space-between;
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
   }
 
 .logo {
-color: var(--IRIS, #4D5AE5);
+color: #4D5AE5;
 font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
@@ -82,6 +85,7 @@ display: inline-flex;
 align-items: center;
 flex-shrink: 0;
 margin-left: 156px;
+margin-right: 76px
 }
 
 .studio {
@@ -95,7 +99,6 @@ text-transform: uppercase;
 display: inline-flex;
 align-items: center;
 flex-shrink: 0;
-margin-right: 76px;
 }
 
 .nav-header {
@@ -105,7 +108,6 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding: 24px 0;
 column-gap: 40px;
 margin-right: 90px;
 }
@@ -189,6 +191,7 @@ background-color: #404BBF;
 }
 
 .button-text {
+  display: block;
 font-family: inherit;
 font-size: 16px;
 }
