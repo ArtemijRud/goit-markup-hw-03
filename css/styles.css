@@ -256,10 +256,10 @@ min-width: 264px;
 /* section 3 */
 
 .our-team-section {
-  padding: 120px 0;
-  width: 1440px;
-  height: 732px;
-background: var(--CLOUD, #F4F4FD);
+padding: 120px 0;
+width: 1440px;
+height: 732px;
+background:  #F4F4FD;
 }
 
 /* .section-three-size {
@@ -271,10 +271,11 @@ background: var(--CLOUD, #F4F4FD);
   display: flex;
   gap: 24px;
   padding-left: 156px;
+  width: calc((100% - 72px) / 4);
   }
 
 .our-section-item {
-color: var(--NAVY-BLUE, #2E2F42);
+color: #2E2F42;
 text-align: center;
 font-family: Roboto, sans-serif;
 font-size: 36px;
@@ -292,7 +293,6 @@ margin-left: 639px;
 
 
 .section-three-list {
-width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 width: 264px;
 height: 380px;
@@ -327,8 +327,8 @@ letter-spacing: 0.02em;
 /* Our Portfolio */
 
 .our-portfolio-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+padding-top: 120px;
+padding-bottom: 120px;
 background: #FFFFFF;
 /* width: 1128px;
 height: 1000px; */
