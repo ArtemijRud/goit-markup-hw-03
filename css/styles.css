@@ -194,6 +194,8 @@ font-size: 16px;
 
 .paddi-sect {
   padding: 120px 0;
+  max-width: 1152px;
+  margin-left: 156px;
 }
 
 .visually-hidden {
@@ -270,9 +272,9 @@ text-transform: capitalize;
 width: 163px;
 align-items: center;
 /* padding-top: 120px; */
-margin-right: 639px;
+margin-right: auto;
 margin-bottom: 72px; 
-margin-left: 639px;
+margin-left: auto;
 }
 
 .section-three-list {
@@ -317,6 +319,9 @@ height: 1000px; */
 }
 
 .container-pad{
+  min-width: 1156px;
+  margin-left: 156px;
+  
   /* padding: 32px 16px;
   border: 1px solid #e7e9fc; */
 }
