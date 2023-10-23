@@ -47,6 +47,8 @@ background-color: #ffffff;
 .header {
 background: #FFF;
 border-bottom: 1px solid #e7e9fc;
+max-width: 1158px;
+margin-left: 156px;
 }
 
 ul, ol {
@@ -118,8 +120,13 @@ color: #404BBF;
 }
 
 .adress {
-  display: block;
+display: block;
 font-style: normal;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .adress-list {
