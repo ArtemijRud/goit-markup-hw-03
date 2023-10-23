@@ -335,8 +335,8 @@ height: 1000px; */
 }
 
 .container-pad{
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  /* padding: 32px 16px;
+  border: 1px solid #e7e9fc; */
 }
 
 .our-portfolio-item {
@@ -367,7 +367,9 @@ background: var(--WHITE, #FFF);
 }
 
 .text-item {
-padding: 32px;
+  border: 1px solid #E7E9FC;
+  border-top: none;
+padding: 32px 16px;
 }
 
 .our-portfolio-item-header {
