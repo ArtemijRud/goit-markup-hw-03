@@ -290,11 +290,8 @@ margin-bottom: 72px;
 margin-left: 639px;
 }
 
-.section-three-list{
+.section-three-list {
 width: calc((100% - 72px) / 4);
-}
-
-.section-three-list-border {
 border-radius: 0px 0px 4px 4px;
 width: 264px;
 height: 380px;
