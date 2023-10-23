@@ -45,11 +45,10 @@ background-color: #ffffff;
 /* Header */
 
 .header {
-background: #FFFFFF;
+background: #FFF;
 border-bottom: 1px solid #e7e9fc;
-margin-right: auto;
-margin-left: auto;
-padding: 0 15px 0 15px;
+margin: 0 auto;
+padding: 0 15px;
 }
 
 ul, ol {
@@ -69,8 +68,11 @@ justify-content: space-between;
 .flex-nav {
   display: flex;
   align-items: center;
- gap: 40px;
- }
+  margin: 0 auto;
+padding: 0 15px;
+  gap: 40px;
+  padding: 24px 0;
+  }
 
 .logo {
 color: #4D5AE5;
@@ -83,8 +85,8 @@ text-transform: uppercase;
 display: inline-flex;
 align-items: center;
 flex-shrink: 0;
-padding-left: 156px;
-/* margin-right: 76px */
+margin-left: 156px;
+margin-right: 76px
 }
 
 .studio {
@@ -108,7 +110,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 column-gap: 40px;
-/* margin-right: 90px; */
+margin-right: 90px;
 }
 
 .nav-li:hover,
