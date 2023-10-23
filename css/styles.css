@@ -393,22 +393,16 @@ letter-spacing: 0.02em;
 .footer-section {
 width: 1440px;
 height: 312px;
-background: var(--NAVY-BLUE, #2E2F42);
-display: flex;
-/* padding: 100px 0; */
-padding-left: 156px;
+background: #2E2F42;
+padding: 100px 0;
 }
 
-.container-footer {
-  padding: 100px 0;
+.footer-section .container {
+  flex-direction: column;
+  margin-left: 156px;
 }
 
 .logo-footer {
-  /* display: flex; */
-    /* padding-top: 102px;
-  padding-right: 1240px;
-  padding-bottom: 189.5px;
-  padding-left: 156px; */
 display: inline-block;
 color: #4D5AE5;
 font-family: Raleway, sans-serif;
@@ -417,6 +411,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
 margin-bottom: 16px;
 }
 
@@ -429,6 +424,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
 margin-bottom: 16px;
 }
 
